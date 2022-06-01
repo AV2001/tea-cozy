@@ -119,6 +119,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 16px;
 }
 
 .locations {
@@ -135,4 +136,27 @@ body {
   gap: 48px;
   padding: 24px 0;
   opacity: 1;
+}
+
+/********************/
+/* FOOTER */
+/********************/
+footer {
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 32px;
+}
+
+.email {
+  margin-bottom: 24px;
+}
+
+.copyrights {
+  margin-left: 20px;
 }
