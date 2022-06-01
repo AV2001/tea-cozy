@@ -69,3 +69,39 @@ body {
 .hero-heading {
   margin-bottom: 24px;
 }
+
+/********************/
+/* FEATURED SECTION */
+/********************/
+.section-featured {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 96px 0;
+  text-align: center;
+}
+
+.featured-heading {
+  margin-bottom: 24px;
+}
+
+.featured-text {
+  margin-bottom: 32px;
+}
+
+.featured-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.featured-tea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.featured-img {
+  height: 200px;
+  width: 300px;
+}
