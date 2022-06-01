@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+}
