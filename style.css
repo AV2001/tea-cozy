@@ -17,8 +17,12 @@ body {
 /********************/
 .main-header {
   height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .main-nav {
@@ -44,6 +48,14 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   color: inherit;
+}
+
+/********************/
+/* MAIN */
+/********************/
+main {
+  position: relative;
+  top: 69px;
 }
 
 /********************/
@@ -142,6 +154,8 @@ body {
 /* FOOTER */
 /********************/
 footer {
+  position: relative;
+  top: 69px;
 }
 
 .contact {
