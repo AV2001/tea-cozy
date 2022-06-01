@@ -11,3 +11,37 @@ body {
   font-size: 22px;
   opacity: 0.9;
 }
+
+/********************/
+/* HEADER */
+/********************/
+.main-header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+}
+
+.main-nav {
+  /* Setting flex-grow to 1 so that it takes up the entire header. */
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: inherit;
+}
